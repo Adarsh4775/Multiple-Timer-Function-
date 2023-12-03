@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timer-input-section,
+.active-timers-section {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 300px;
+}
+
+.timer {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.timer:hover {
+    background-color: #f9f9f9;
+}
+
+.timer-ended {
+    background-color: #ffcccc;
+}
+
+.timer-display {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+button {
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 1em;
+    color:white;
+    background-color: rgb(37, 234, 50);
+    border:none;
+    
+}
+h1{
+    margin-left:25%;
+}
